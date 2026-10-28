@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Parcial</string>
+
+    <string name="common_back">Back</string>
+    <string name="error_session">Your session expired. Please sign in again.</string>
+    <string name="error_connection">Could not reach the server. %1$s</string>
+    <string name="error_server">The server returned an error (%1$s). Please try again.</string>
+    <string name="error_invalid">The data sent is not valid.</string>
+
+    <string name="login_title">Sign in</string>
+    <string name="login_subtitle">Save and review your places of interest</string>
+    <string name="login_user">Username</string>
+    <string name="login_create_account">Create an account</string>
+    <string name="login_password">Password</string>
+    <string name="login_button">Sign in</string>
+    <string name="login_error_empty">Enter your username and password.</string>
+    <string name="login_error_credentials">Incorrect username or password.</string>
+
+    <string name="register_title">Create account</string>
+    <string name="register_user">Username</string>
+    <string name="register_password">Password</string>
+    <string name="register_confirm_password">Confirm password</string>
+    <string name="register_button">Sign up</string>
+    <string name="register_have_account">I already have an account</string>
+    <string name="register_error_empty">Enter a username and a password.</string>
+    <string name="register_error_password_mismatch">The passwords do not match.</string>
+    <string name="register_error_user_exists">That username already exists. Choose another one.</string>
+    <string name="register_error_invalid_data">Check the username and password.</string>
+
+    <string name="dashboard_title">Hello, %1$s</string>
+    <string name="dashboard_subtitle">What would you like to do today?</string>
+    <string name="dashboard_capture_title">Capture location</string>
+    <string name="dashboard_capture_desc">Save your current location with a name and a description.</string>
+    <string name="dashboard_list_title">My locations</string>
+    <string name="dashboard_list_desc">Browse the list of places you have saved.</string>
+    <string name="dashboard_map_title">View on map</string>
+    <string name="dashboard_map_desc">See all your locations as markers.</string>
+    <string name="dashboard_logout">Sign out</string>
+
+    <string name="capture_title">Capture location</string>
+    <string name="capture_name">Location name</string>
+    <string name="capture_description">Description</string>
+    <string name="capture_button">Capture and save</string>
+    <string name="capture_loading">Getting your location and saving…</string>
+    <string name="capture_success">Location saved: %1$s</string>
+    <string name="capture_mark_location">Mark location on the map</string>
+    <string name="capture_location_auto">If you do not mark a point, your current GPS location will be used.</string>
+    <string name="capture_location_marked">Marked location: %1$s</string>
+    <string name="capture_use_current">Use my current location</string>
+    <string name="picker_title">Mark location</string>
+    <string name="picker_cancel">Cancel</string>
+    <string name="picker_hint">Tap the map to mark the place.</string>
+    <string name="picker_marked">Marked: %1$s</string>
+    <string name="picker_confirm">Confirm location</string>
+    <string name="capture_error_empty">Enter a name and a description.</string>
+    <string name="capture_error_permission">We need the location permission to capture your position. You can enable it in the app settings.</string>
+    <string name="capture_error_gps">Could not get your location. Turn on GPS and try again.</string>
+
+    <string name="locations_title">My locations</string>
+    <string name="locations_empty">You have not saved any locations yet.</string>
+    <string name="locations_retry">Retry</string>
+    <string name="locations_view_map">View on map</string>
+    <string name="locations_coordinates">Coordinates: %1$s</string>
+    <string name="locations_no_description">No description</string>
+
+    <string name="map_title">Locations map</string>
+    <string name="map_empty">You have no saved locations to show on the map yet.</string>
+    <string name="map_dialog_description">Description</string>
+    <string name="map_dialog_coordinates">Coordinates</string>
+    <string name="map_dialog_date">Saved on</string>
+    <string name="map_dialog_close">Close</string>
+</resources>

@@ -1,0 +1,9 @@
+DROP INDEX IF EXISTS users_email_lower_key;
+
+ALTER TABLE users DROP COLUMN IF EXISTS nombre;
+ALTER TABLE users DROP COLUMN IF EXISTS apellido;
+ALTER TABLE users DROP COLUMN IF EXISTS email;
+ALTER TABLE users DROP COLUMN IF EXISTS telefono;
+ALTER TABLE users DROP COLUMN IF EXISTS created_at;
+
+CREATE UNIQUE INDEX IF NOT EXISTS users_usuario_lower_key ON users (LOWER(usuario));
